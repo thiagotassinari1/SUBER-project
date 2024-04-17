@@ -1,0 +1,11 @@
+CREATE DATABASE suber_db;
+USE suber_db;
+
+CREATE TABLE usuarios (
+	id INT PRIMARY KEY AUTO_INCREMENT,
+    nome VARCHAR(255) NOT NULL,
+    email VARCHAR(255) UNIQUE NOT NULL,
+    telefone VARCHAR(255) UNIQUE NOT NULL
+);
+
+SELECT * FROM usuarios;
