@@ -369,7 +369,7 @@ footer {
     }
 
     /* configuração section mobile - cadastro */
-    #campo {
+    .campo {
         width: 70vw;
         padding-left: 4vw;
     }
